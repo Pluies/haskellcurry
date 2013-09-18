@@ -1,0 +1,7 @@
+<h1> Enter your order, Curry Underling!
+<form method=post action=@{OrderR}>
+    <input type=text name=curry>
+    <label> You are:
+        <input type=text name=underling>
+    <input type=text name=content>
+    <input type=submit>
