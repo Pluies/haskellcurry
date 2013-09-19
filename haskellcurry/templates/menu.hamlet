@@ -1,7 +1,7 @@
 <h1> Enter your order, Curry Underling!
-<form method=post action=@{OrderR}>
-    <input type=text name=curry>
-    <label> You are:
-        <input type=text name=underling>
-    <input type=text name=content>
-    <input type=submit>
+<p> See <a href=http://www.daawat.co.nz/html/lunch_menu.htm >menu</a> for a list of available curries.
+<p> Order around 11:45am, delivery around 12:30 on l3.
+<hr>
+<form method=post action=@{MenuR} enctype=#{enctype}>
+    ^{curryOrderWidget}
+    <input type=submit value=Order>

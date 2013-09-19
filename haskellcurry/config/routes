@@ -5,4 +5,4 @@
 /robots.txt RobotsR GET
 
 / HomeR GET POST
-/menu/ MenuR GET POST
+/curry/ MenuR GET POST
