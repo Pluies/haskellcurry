@@ -13,7 +13,7 @@ Email
 
 CurryOrder
     curry      Text
-    hotness    Text
-    garlic     Text
+    hotness    Hotness
+    garlic     Bool
     underling  Text
 

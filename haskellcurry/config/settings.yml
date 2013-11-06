@@ -2,7 +2,7 @@ Default: &defaults
   host: "*4" # any IPv4 host
   port: 3000
   approot: "http://florent:3000"
-  copyright: Insert copyright statement here
+  copyright: All pricing indicative and subject to the whims of the Curry Overlord.
   #analytics: UA-YOURCODE
 
 Development:

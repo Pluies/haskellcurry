@@ -1,7 +1,15 @@
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="/static/js/price.js"></script>
+<style>
+    /* Inline style. Yeah. Deal with it. */
+    #price  {color: #555; font-size: 1.5em; padding-left: 93px; vertical-align: middle; }
+    footer  {color: #aaa; font-style: italic; }
+
 <h1> Enter your order, Curry Underling!
 <p> See <a href=http://www.daawat.co.nz/html/lunch_menu.htm >menu</a> for a list of available curries.
 <p> Order around 11:45am, delivery around 12:30 on l3.
 <hr>
 <form method=post action=@{MenuR} enctype=#{enctype}>
     ^{curryOrderWidget}
-    <input type=submit value=Order>
+    <input type=submit value="Order now!">
+    <span id=price>$<span id=amount></span></span>
